@@ -4,7 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import com.maykon.guiaturistico.modelo.EnumTipoAtracoes;
 
 public class PrincipalActivity extends AppCompatActivity {
 
@@ -14,18 +15,23 @@ public class PrincipalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_principal);
     }
 
-    public void clickGuiaTuristico(View view){
-        Intent intent = new Intent(this, TuristicoActivity.class);
-        startActivity(intent);
-    }
+    public void mostrarAtracoes(View view){
+        Intent intent = new Intent(this, ListaAtracoesActivity.class);
 
-    public void clickGuiaCultural(View view){
-        Intent intent = new Intent(this, CulturalActivity.class);
-        startActivity(intent);
-    }
+        switch(view.getId()){
+            case R.id.btnCultural:
+                System.out.println("cultural");
+                intent.putExtra("tipoAtracao", EnumTipoAtracoes.CULTURAL);
+                break;
+            case R.id.btnGastronomico:
+                System.out.println("atracao");
+                intent.putExtra("tipoAtracao", EnumTipoAtracoes.GASTRONOMICO);
+                break;
+            case R.id.btnTuristico:
+                intent.putExtra("tipoAtracao", EnumTipoAtracoes.TURISTICO);
+                break;
+        }
 
-    public void clickGuiaGastronomico(View view){
-        Intent intent = new Intent(this, GastronomicoActivity.class);
         startActivity(intent);
     }
 }

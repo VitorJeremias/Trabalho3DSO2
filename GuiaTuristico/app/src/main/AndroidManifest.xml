@@ -16,9 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TuristicoActivity" />
-        <activity android:name=".CulturalActivity" />
-        <activity android:name=".GastronomicoActivity"></activity>
+        <activity android:name=".ListaAtracoesActivity"></activity>
     </application>
 
 </manifest>

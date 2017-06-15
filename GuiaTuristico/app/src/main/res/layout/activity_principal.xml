@@ -23,7 +23,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="32dp"
             android:layout_weight="1"
-            android:onClick="clickGuiaCultural"
+            android:onClick="mostrarAtracoes"
             android:text="Guia Cultural" />
 
         <Button
@@ -35,7 +35,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="32dp"
             android:layout_weight="1"
-            android:onClick="clickGuiaTuristico"
+            android:onClick="mostrarAtracoes"
             android:text="Guia Turístico" />
 
         <Button
@@ -47,7 +47,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="32dp"
             android:layout_weight="1"
-            android:onClick="clickGuiaGastronomico"
+            android:onClick="mostrarAtracoes"
             android:text="Guia Gastronômico" />
 
     </LinearLayout>
