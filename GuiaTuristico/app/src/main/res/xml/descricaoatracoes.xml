@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <atracoes>
     <atracao id="1">
-        <local></local>
-        <descricao></descricao>
-        <coordenadas></coordenadas>
+        <local>Restaurante Boka`s 3</local>
+        <descricao>
+            Restaurante Boka's IV Kobrasol
+            *Carnes e Frangos Grelhados
+            *Pratos ao Forno
+            *Frutos do Mar
+            *Super Lanches
+            *Aperitivos e muito mais...
+
+            Entrada: Gratuita
+            Segunda a Sexta: 18:30 às 23:30
+            Sábados e domingos: 11:00 às 14:00 e 18:30 às 23:30
+
+            Contato: R. Cel. Pedro Demoro, 1872 - Balneario, Florianópolis - SC, 88075-300
+        </descricao>
+        <coordenadas x="-27.5837144" y= "-48.5820299"></coordenadas>
     </atracao>
 </atracoes>

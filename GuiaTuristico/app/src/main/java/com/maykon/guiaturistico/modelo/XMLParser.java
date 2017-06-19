@@ -25,12 +25,12 @@ public class XMLParser {
         boolean begin = false;
         while (parser.next() != XmlPullParser.END_DOCUMENT) {
 
-            switch(parser.getEventType()){
+            switch (parser.getEventType()) {
                 case XmlPullParser.START_TAG:
-                    if(parser.getName().equals(tipoAtracao)){
+                    if (parser.getName().equals(tipoAtracao)) {
                         begin = !begin;
                     }
-                    if(parser.getName().equals("local") && begin) {
+                    if (parser.getName().equals("local") && begin) {
                         AtracaoHeaderDto dto = new AtracaoHeaderDto();
 
                         dto.setId(parser.getAttributeValue(0));
@@ -40,18 +40,58 @@ public class XMLParser {
                         lista.add(dto);
                     }
                     break;
-                    case XmlPullParser.END_TAG:
-                        if(parser.getName().equals(tipoAtracao)){
-                            begin = false;
-                        }
+                case XmlPullParser.END_TAG:
+                    if (parser.getName().equals(tipoAtracao)) {
+                        begin = false;
+                    }
             }
 
         }
         return lista;
     }
 
-    public static AtracaoDto gerarDto(){
+    public static AtracaoDto carregarAtracao(XmlResourceParser xml, String idAtracao) throws XmlPullParserException, IOException {
         AtracaoDto dto = new AtracaoDto();
+
+        XmlPullParser parser = xml;
+
+        while (parser.next() != XmlPullParser.END_DOCUMENT) {
+            switch (parser.getEventType()) {
+                case XmlPullParser.START_TAG:
+                    if (parser.getAttributeCount() > 0 && parser.getAttributeValue(0).equals(idAtracao)) {
+                        boolean fim = false;
+                        while (!fim) {
+                            if (parser.getEventType() == XmlPullParser.START_TAG) {
+                                switch (parser.getName()) {
+                                    case "local":
+                                        parser.next();
+                                        dto.setNomeLocal(parser.getText());
+                                        break;
+                                    case "descricao":
+                                        parser.next();
+                                        dto.setDescricao(parser.getText());
+                                        break;
+                                    case "coordenadas":
+                                        String[] coordenada = new String[2];
+                                        coordenada[0] = parser.getAttributeValue(0);
+                                        coordenada[1] = parser.getAttributeValue(1);
+                                        dto.setCoordenada(coordenada);
+                                        parser.next();
+                                        break;
+                                    default:
+                                        parser.next();
+                                }
+                            } else {
+                                if (parser.getEventType() == XmlPullParser.END_TAG && parser.getName().equals("atracao")) {
+                                    fim = true;
+                                } else {
+                                    parser.next();
+                                }
+                            }
+                        }
+                    }
+            }
+        }
 
         return dto;
     }

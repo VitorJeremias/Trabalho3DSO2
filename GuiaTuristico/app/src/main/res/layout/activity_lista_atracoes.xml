@@ -34,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:textAlignment="center"
+                android:textColor="@android:color/black"
                 android:textSize="24sp" />
 
             <TextView
@@ -42,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="64dp"
                 android:textAlignment="center"
+                android:textColor="@android:color/black"
                 android:textSize="24sp" />
 
             <TextView
@@ -50,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="64dp"
                 android:textAlignment="center"
+                android:textColor="@android:color/black"
                 android:textSize="24sp" />
         </LinearLayout>
 

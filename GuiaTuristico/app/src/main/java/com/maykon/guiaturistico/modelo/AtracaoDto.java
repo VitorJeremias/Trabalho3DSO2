@@ -6,7 +6,7 @@ public class AtracaoDto {
     private String nomeLocal;
     private List<String> linksDasFotos;
     private String descricao;
-    private String coordenada;
+    private String [] coordenada;
 
     public String getNomeLocal() {
         return nomeLocal;
@@ -32,11 +32,11 @@ public class AtracaoDto {
         this.descricao = descricao;
     }
 
-    public String getCoordenada() {
+    public String[] getCoordenada() {
         return coordenada;
     }
 
-    public void setCoordenada(String coordenada) {
+    public void setCoordenada(String[] coordenada) {
         this.coordenada = coordenada;
     }
 }

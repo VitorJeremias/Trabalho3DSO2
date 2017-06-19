@@ -16,7 +16,6 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.LinkedList;
-import java.util.List;
 
 public class ListaAtracoesActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -37,13 +36,12 @@ public class ListaAtracoesActivity extends AppCompatActivity implements View.OnC
 
     private void popularTela(){
         this.lista = null;
-        XmlResourceParser is = this.getResources().getXml(R.xml.listaatracoes);
+        XmlResourceParser xml = this.getResources().getXml(R.xml.listaatracoes);
 
         try {
-           this.lista = XMLParser.lerListaAtracoes(is, tipo.getTag());
-        }
-        catch (XmlPullParserException | IOException e){
-            Log.e("Erro ao ler o XML",e.getMessage());
+           this.lista = XMLParser.lerListaAtracoes(xml, tipo.getTag());
+        } catch (XmlPullParserException | IOException e) {
+            Log.e("Erro ao ler o XML", e.getMessage());
         }
         TextView label = (TextView) findViewById(R.id.labelItem1);
         label.setText("1) "+lista.get(0).getTitulo());
@@ -61,7 +59,7 @@ public class ListaAtracoesActivity extends AppCompatActivity implements View.OnC
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(this, DescricaoAtracao.class);
+        Intent intent = new Intent(this, DescricaoAtracaoActivity.class);
         switch(v.getId()){
             case R.id.labelItem1:
                 intent.putExtra("dto", this.lista.get(0).getId());
