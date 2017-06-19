@@ -20,11 +20,9 @@ public class PrincipalActivity extends AppCompatActivity {
 
         switch(view.getId()){
             case R.id.btnCultural:
-                System.out.println("cultural");
                 intent.putExtra("tipoAtracao", EnumTipoAtracoes.CULTURAL);
                 break;
             case R.id.btnGastronomico:
-                System.out.println("atracao");
                 intent.putExtra("tipoAtracao", EnumTipoAtracoes.GASTRONOMICO);
                 break;
             case R.id.btnTuristico:

@@ -5,10 +5,15 @@ package com.maykon.guiaturistico.modelo;
  */
 
 public enum EnumTipoAtracoes {
-    GASTRONOMICO{
+    GASTRONOMICO {
         @Override
         public String getNomeTipo() {
             return "Gastronômico";
+        }
+
+        @Override
+        public String getTag() {
+            return "gastronomico";
         }
     },
     CULTURAL {
@@ -16,13 +21,25 @@ public enum EnumTipoAtracoes {
         public String getNomeTipo() {
             return "Cultural";
         }
+
+        @Override
+        public String getTag() {
+            return "cultural";
+        }
     },
-    TURISTICO{
+    TURISTICO {
         @Override
         public String getNomeTipo() {
             return "Turístico";
         }
+
+        @Override
+        public String getTag() {
+            return "turistico";
+        }
     };
 
     public abstract String getNomeTipo();
+
+    public abstract String getTag();
 }

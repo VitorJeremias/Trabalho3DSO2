@@ -8,10 +8,35 @@ public class AtracaoDto {
     private String descricao;
     private String coordenada;
 
-    public AtracaoDto(String nomeLocal, List<String> links, String descricao, String coordenada){
+    public String getNomeLocal() {
+        return nomeLocal;
+    }
+
+    public void setNomeLocal(String nomeLocal) {
         this.nomeLocal = nomeLocal;
-        this.linksDasFotos = links;
+    }
+
+    public List<String> getLinksDasFotos() {
+        return linksDasFotos;
+    }
+
+    public void setLinksDasFotos(List<String> linksDasFotos) {
+        this.linksDasFotos = linksDasFotos;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getCoordenada() {
+        return coordenada;
+    }
+
+    public void setCoordenada(String coordenada) {
         this.coordenada = coordenada;
     }
 }
