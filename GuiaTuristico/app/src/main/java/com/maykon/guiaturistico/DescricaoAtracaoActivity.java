@@ -4,10 +4,11 @@ import android.content.res.XmlResourceParser;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.maykon.guiaturistico.modelo.AtracaoDto;
-import com.maykon.guiaturistico.modelo.EnumTipoAtracoes;
+import com.maykon.guiaturistico.modelo.MapFotos;
 import com.maykon.guiaturistico.modelo.XMLParser;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -38,5 +39,17 @@ public class DescricaoAtracaoActivity extends AppCompatActivity {
 
         label = (TextView) findViewById(R.id.labelDescText);
         label.setText(dto.getDescricao());
+
+        setFotos(dto.getIdFotos());
+    }
+
+    private void setFotos(String[] ids){
+        if(ids != null){
+            ImageView foto = (ImageView) findViewById(R.id.foto1);
+            foto.setImageResource(MapFotos.getMap().get(ids[0]));
+
+            foto = (ImageView) findViewById(R.id.foto2);
+            foto.setImageResource(MapFotos.getMap().get(ids[1]));
+        }
     }
 }

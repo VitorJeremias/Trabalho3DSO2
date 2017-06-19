@@ -78,6 +78,16 @@ public class XMLParser {
                                         dto.setCoordenada(coordenada);
                                         parser.next();
                                         break;
+                                    case "fotos":
+                                        String[] idFotos = new String[2];
+                                        idFotos[0] = parser.getAttributeValue(0);
+                                        Log.i("id1",""+parser.getAttributeValue(0));
+                                        idFotos[1] = parser.getAttributeValue(1);
+                                        Log.i("id2",""+parser.getAttributeValue(0));
+                                        dto.setIdFotos(idFotos);
+
+                                        parser.next();
+                                        break;
                                     default:
                                         parser.next();
                                 }

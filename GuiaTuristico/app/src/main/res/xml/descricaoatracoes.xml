@@ -11,11 +11,44 @@
             *Aperitivos e muito mais...
 
             Entrada: Gratuita
-            Segunda a Sexta: 18:30 às 23:30
+            Aberto de segunda a Sexta: 18:30 às 23:30
             Sábados e domingos: 11:00 às 14:00 e 18:30 às 23:30
 
-            Contato: R. Cel. Pedro Demoro, 1872 - Balneario, Florianópolis - SC, 88075-300
+            Contato:
+            R. Cel. Pedro Demoro, 1872 - Balneario, Florianópolis - SC, 88075-300
+
+
+            vai
+
+            ter
+
+
+            texto
+
+
+            pra
+
+            caralho
+
+            #vaitertexto
         </descricao>
         <coordenadas x="-27.5837144" y= "-48.5820299"></coordenadas>
+        <fotos a="1" b="2"></fotos>
+    </atracao>
+    <atracao id="2">
+        <local>Meu Escritório Bar</local>
+        <descricao>
+            O MELHOR BAR DA UFSC!
+
+            Contato:
+            rua deputado antonio edu vieira 1740
+            (48) 9613-9232
+
+            Entrada: Gratuita
+            Aberto todos os dias das 18:00 às 02:00
+
+        </descricao>
+        <coordenadas x="-27.6018726" y= "-48.5171997"></coordenadas>
+        <fotos a="3" b="4"></fotos>
     </atracao>
 </atracoes>

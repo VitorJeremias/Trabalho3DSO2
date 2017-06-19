@@ -6,7 +6,12 @@ public class AtracaoDto {
     private String nomeLocal;
     private List<String> linksDasFotos;
     private String descricao;
-    private String [] coordenada;
+    private String[] coordenada;
+    private String[] idFotos;
+
+    public String[] getIdFotos() {return idFotos; }
+
+    public void setIdFotos(String[] idFotos) { this.idFotos = idFotos;}
 
     public String getNomeLocal() {
         return nomeLocal;
