@@ -16,25 +16,11 @@
 
             Contato:
             R. Cel. Pedro Demoro, 1872 - Balneario, Florianópolis - SC, 88075-300
-
-
-            vai
-
-            ter
-
-
-            texto
-
-
-            pra
-
-            caralho
-
-            #vaitertexto
         </descricao>
         <coordenadas x="-27.5837144" y= "-48.5820299"></coordenadas>
         <fotos a="1" b="2"></fotos>
     </atracao>
+
     <atracao id="2">
         <local>Meu Escritório Bar</local>
         <descricao>
@@ -50,5 +36,140 @@
         </descricao>
         <coordenadas x="-27.6018726" y= "-48.5171997"></coordenadas>
         <fotos a="3" b="4"></fotos>
+    </atracao>
+
+    <atracao id="3">
+        <local>Restaurante Servidores UFSC</local>
+        <descricao>
+            Restaurante dos servidores da Universidade Federal de Santa Catarina
+
+            Horário de funcionamento:
+            Segunda a Sexta das 11:00 às 14:00
+
+            Entrada:
+            Gratuita
+
+            Contato:
+            Avenida Desembargador Vitor Lima 183
+            88040-535 Florianópolis, Brazil
+            (48) 3233-5374
+        </descricao>
+        <coordenadas x="-27.5975124" y="-48.5222678"></coordenadas>
+        <fotos a="5" b="6"></fotos>
+    </atracao>
+
+    <atracao id="4">
+        <local>Centro Integrado de Cultura (CIC)</local>
+        <descricao>
+            O Centro Integrado de Cultura (CIC) foi construído para abrigar, harmoniosamente, as diversas formas de manifestação da cultura artística de Santa Catarina. O CIC foi inaugurado em 1982 e tem o nome oficial homenageando o Professor Henrique da Silva Fontes (1885-1966), figura eminente, ligada à fundação da Universidade Federal de Santa Catarina, professor universitário, desembargador, pesquisador da história catarinense e membro da Academia Catarinense de letras.
+
+            É a casa das diversas formas de manifestação da cultura artística de Santa Catarina. Abriga grandes salões de exposição, bibliotecas setoriais, o cinema, o Teatro Ademir Rosa, o Museu de Arte de Santa Catarina, o Museu da Imagem e do Som, as Oficinas de Arte, a Escolinha de Arte, o Ateliê de Conservação e Restauração de Bens Culturais Móveis e a administração da FCC.
+
+            O Centro Integrado de Cultura (CIC) é vinculado à Fundação Catarinense de Cultura.
+
+            Horário de funcionamento:
+            Horário de atendimento: de segunda-feira a domingo, das 10h às 23h.
+
+            Entrada:
+            Varia de acordo com a atração
+
+            Contato:
+            Endereço: Avenida Gov. Irineu Bornhausen, nº 5600 - Agronômica - Florianópolis - SC
+            Telefone: (48) 3664-2555
+        </descricao>
+        <coordenadas x="-27.5775517" y="-48.5265002"></coordenadas>
+        <fotos a="7" b="8"></fotos>
+    </atracao>
+
+    <atracao id="5">
+        <local>Teatro Governador Pedro Ivo</local>
+        <descricao>
+            O Teatro conta com uma equipe técnica treinada em operacionalizar eventos e espetáculos com exigências internacionais, dotado de equipamentos modernos de cenotécnia, iluminação e sonorização, está preparado para receber a produção de eventos e espetáculos, e proporcionar ao público uma experiência agradável.
+            Os principais cidadãos-usuarios dos serviços do teatro são:
+            Pessoas físicas e jurídicas, órgãos e entidades do Poder executivo (secretarias de estado, fundações, autarquias e empresas do Governo).
+            A sociedade em geral, por seus cidadãos, servidores públicos estaduais, e Fornecedores de bens e serviços.
+            Para cumprir com essas funções o Teatro Governador Pedro Ivo Campos tem seus processos alinhados com a estratégia da Secretaria de Estado da Administração, a qual foi estruturada com base no seu planejamento Estratégico estruturado no ano 2005, e revisado em 2009.
+
+            Horário de funcionamento:
+            Horário de Atendimento/Resposta: 14 às 20 horas
+
+            Entrada:
+            Varia de acordo com a atração
+
+            Contato:
+            WhatsApp Teatro Pedro Ivo 48.991327839
+        </descricao>
+        <coordenadas x="-27.5415906" y="-48.5047437"></coordenadas>
+        <fotos a="9" b="10"></fotos>
+    </atracao>
+
+    <atracao id="6">
+        <local>Mercado público de Florianópolis</local>
+        <descricao>
+            O Mercado Público de Florianópolis é um dos principais pontos turísticos da cidade. Valorizado como patrimônio artístico, histórico e arquitetônico da Ilha de Santa Catarina. inaugurado em 5 de fevereiro de 1899, o mercado modificou toda a experiência que até então os ilhéus tinham vivido, com iluminação a gás acetileno.
+            Em janeiro de 1931 foi inaugurada a ala Sul do mercado público, que passou a ser utilizada especificamente para a venda de carnes e pescados. Na mesma década foram realizadas obras de na rede de encanamento e a construção de três câmaras frigoríficas, o que também foi um passo grande na história do mercado, antes disso os peixes eram vendidos apenas na parte da manhã, quando começavam a se deteriorar eles eram descartados. O frigorífico funcionou até o ano de 1988, já que a prefeitura havia realizou novas obras no prédio e cada proprietário do box adquiriu seu próprio sistema de refrigeração. Outra grande transformação de cenário vivida pelo mercado municipal de Florianópolis foi nos anos 70, com a construção do aterro da Baía Sul e da ponte Colombo Salles.  A partir daí os alimentos e utensílios que eram comercializados no mercado passaram a chegar através de veículos. Nos anos 80 foi criada a Associação dos Comerciantes e Varejistas do Mercado Público de Florianópolis e ocorreu o tombamento do prédio, como patrimônio histórico municipal, que assegura a sua permanência e conservação.  Ainda na mesma década o prédio passou por uma reforma que durou cinco anos, finalizada em 1988.
+
+            Horário de funcionamento:
+            SEGUNDA A SEXTA-FEIRA
+            Lojas e peixarias – das 7h às 19h
+            Bares e restaurantes – até as 22h
+            Música ao vivo – quinta e sexta, a partir das 19h
+
+            :: SÁBADOS
+            Lojas e peixarias – das 7h às 14h
+            Bares e restaurantes – até as 17h, prorrogável até 19h, dependendo do movimento
+            Música ao vivo – a partir das 13h, até terminar o movimento
+
+            :: DOMINGOS
+            Lojas, bares e restaurantes – das 7h às 17h, mas só no primeiro domingo do mês
+            Música ao vivo – das 11h às 17h, mas só no primeiro domingo do mês
+
+            Entrada:
+            Gratuita
+        </descricao>
+        <coordenadas x="-27.5973209" y="-48.5529147"></coordenadas>
+        <fotos a="11" b="12"></fotos>
+    </atracao>
+
+    <atracao id="7">
+        <local>Ponte Hercílio Luz</local>
+        <descricao>
+            A ponte Hercílio Luz é a maior ponte pênsil do Brasil e possui o 132º maior vão pênsil do mundo. Teve sua construção iniciada em 14 de novembro de 1922 e foi inaugurada em 13 de maio de 1926. A ponte tem 821,005 m de comprimento total, sendo formada pelos viadutos de acesso do continente, com 222,504 m, da ilha, com 259,08 m, e pelo vão central pênsil, que tem 339,471 m de extensão.
+            O mirante situado à cabeceira insular proporciona uma das mais belas vistas panorâmicas do centro da cidade. Na área também estão situados o museu da Ponte e o parque da Luz.
+
+            Horário de funcionamento:
+            A ponte está interditada desde 15 de julho de 1991, porém a iluminação é mantida durante a noite diariamente.
+        </descricao>
+        <coordenadas x="-27.5938854" y="-48.5660197"></coordenadas>
+        <fotos a="13" b="14"></fotos>
+    </atracao>
+
+    <atracao id="8">
+        <local>Praça XV de Novembro</local>
+        <descricao>
+            Esta área, no centro da cidade,  concentra uma grande quantidade de construções históricas, as quais apresentam as características arquitetônicas originais preservadas por lei.
+            Na Praça XV está o Monumento em Honra aos Heróis Mortos na Guerra do Paraguai e os bustos que homenageiam catarinenses famosos: Cruz e Sousa, poeta, Victor Meirelles, pintor, José Boiteux, historiador, e Jerônimo Coelho, fundador da imprensa no Estado.
+
+
+            Horário de funcionamento: 24 horas por dia
+
+            Entrada: Gratuita
+        </descricao>
+        <coordenadas x="-27.597479" y="-48.5498747"></coordenadas>
+        <fotos a="15" b="16"></fotos>
+    </atracao>
+
+    <atracao id="9">
+        <local>Praia da Joaquina</local>
+        <descricao>
+            Joaquina é um dos lugares mais procurados por sufistas e esportistas em geral, todos os dias têm partidas de futebol na areia, futevôlei, corredores, etc. Além de contar com boa estrutura para banhistas, com sanitários, chuveiros,  posto policial, salva-vidas, iluminação noturna, etc.
+            A praia da Joaquina é também conhecida pelo criativo "surfe sobre as dunas" ou Sandboard, uma variação do surfe tradicional e que acontece sobre as grandes e belas dunas que contornam a praia. A "Joaquina", como normalmente é conhecida, tem início no final da Praia do Campeche e seu término acontece na Ponta do Retiro.
+
+            Horário de funcionamento: 24 horas por dia
+
+            Entrada: Gratuita
+        </descricao>
+        <coordenadas x="-27.6287947" y="-48.4478258"></coordenadas>
+        <fotos a="17" b="18"></fotos>
     </atracao>
 </atracoes>
