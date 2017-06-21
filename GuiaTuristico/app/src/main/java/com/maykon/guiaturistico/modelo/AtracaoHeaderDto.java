@@ -3,6 +3,7 @@ package com.maykon.guiaturistico.modelo;
 public class AtracaoHeaderDto {
     private String id;
     private String titulo;
+    private boolean isFavorite;
 
     public String getId() {
         return id;
@@ -18,5 +19,13 @@ public class AtracaoHeaderDto {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    public boolean isFavorite() {
+        return isFavorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
     }
 }

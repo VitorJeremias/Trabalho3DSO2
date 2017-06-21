@@ -34,6 +34,7 @@ public class XMLParser {
                         AtracaoHeaderDto dto = new AtracaoHeaderDto();
 
                         dto.setId(parser.getAttributeValue(0));
+                        dto.setFavorite(Boolean.valueOf(parser.getAttributeValue(1)));
                         parser.next();
                         dto.setTitulo(parser.getText());
 

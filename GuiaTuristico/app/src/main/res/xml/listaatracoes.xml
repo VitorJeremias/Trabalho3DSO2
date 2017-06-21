@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <listaAtracoes>
     <gastronomico>
-        <local id = "1">Restaurante Boka's 3</local>
-        <local id = "2">Meu Escritório Bar</local>
-        <local id = "3">Restaurante Servidores</local>
+        <local id = "1" fav = "false">Restaurante Boka's 3</local>
+        <local id = "2" fav = "false">Meu Escritório Bar</local>
+        <local id = "3" fav = "false">Restaurante Servidores</local>
     </gastronomico>
 
     <cultural>
-        <local id = "4">Centro Integrado de Cultura (CIC)</local>
-        <local id = "5">Teatro Governador Pedro Ivo</local>
-        <local id = "6">Mercado Público</local>
+        <local id = "4" fav = "false">Centro Integrado de Cultura (CIC)</local>
+        <local id = "5" fav = "false">Teatro Governador Pedro Ivo</local>
+        <local id = "6" fav = "false">Mercado Público</local>
     </cultural>
 
     <turistico>
-        <local id = "7">Ponte Hercílio Luz</local>
-        <local id = "8">Praça XV</local>
-        <local id = "9">Praia da Joaquina</local>
+        <local id = "7" fav = "false">Ponte Hercílio Luz</local>
+        <local id = "8" fav = "false">Praça XV</local>
+        <local id = "9" fav = "false">Praia da Joaquina</local>
     </turistico>
 </listaAtracoes>
